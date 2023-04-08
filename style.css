@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.btn {
+background-color: white;
+padding: 10px 20px 10px 20px;
+border: 1px solid black;
+border-radius: 4px; 
+}
+
+.btn:active{
+    background-color: pink;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
